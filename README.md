@@ -1,9 +1,6 @@
 # Sueldo de Pepe
 
-<img src="img/money.jpg" height="150" width="250">
-
-[polimorfismo, if]
-
+<img src="assets/money.jpg" height="150" width="250">
 
 ## Consigna
 
