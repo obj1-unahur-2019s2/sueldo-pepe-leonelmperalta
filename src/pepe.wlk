@@ -1,10 +1,15 @@
+import categorias.*
+import bonos.*
+
 object pepe {
-	var categoria = // completar
-	var bonoPresentismo = // completar
-	var bonoResultado = // completar
-	var cantidadDeFaltas = 0
+	var categoria = cadete
+	var bonoPresentismo = porcentaje
+	var bonoResultado = normal
+	var cantidadDeFaltas = 1
 
 	method sueldo() {
-		return // completar
-	}	 
+		return categoria.neto() + bonoPresentismo.bono() + bonoResultado.bono()
+	}
+	method cantidadDeFaltas() = return cantidadDeFaltas	
+	method categoria() = return categoria 
 }
